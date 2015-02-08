@@ -1,0 +1,158 @@
+body {
+	-webkit-appearance:none;
+	font-family:arial,sans-serif;
+	font-size: 12px;
+	color: #ccc;
+}
+
+a {
+	text-decoration: none;
+	color: #444;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#000;
+}
+
+a:visited {
+	color: #609;
+}
+
+li, ul {
+	list-style: none;
+	display:inline;
+	line-height:24px;
+}
+
+#top-nav {
+	height:60px;
+}
+
+.right {
+	float:right;
+}
+
+.left {
+	float:left;
+}
+
+.nav.right{
+	margin-right:30px;
+}
+
+.nav {
+	margin-top:17px;
+}
+
+#top-nav li {
+	padding-left:13px;
+}
+
+#bottom-nav li {
+	padding-left: 27px;
+}
+
+.sprite {
+	display:inline-block;
+	height:30px;
+	width:30px;
+	background-image:url('../images/sprite1.png');
+	background-size:356px 144px;
+	vertical-align:middle;
+	opacity:.55;
+	overflow:hidden;
+}
+
+.sprite:hover {
+	opacity:1;
+}
+
+#share {
+	background-position:-326px -17px;
+}
+
+#alert {
+	background-position:-52px 0px;
+}
+
+#apps {
+	background-position:-326px -52px;
+}
+
+#share:hover {
+	opacity:1;
+}
+
+#portrait {
+	display:inline-block;
+	vertical-align: middle;
+	background-image:url('../images/photo.jpg');
+	background-position:center;
+	background-size: 30px 30px;
+	height:30px;
+	width:30px;
+	border-radius:100%;
+}
+
+#content {
+	text-align:center;
+}
+
+#searchcontainer {
+	margin-top:15px;
+}
+
+#searchtextwrap {
+	display:block;
+	margin:auto;
+	padding:5px 8px;
+	height: 19px;
+	width: 400px;
+	border: 1px solid #ccc;
+}
+
+#searchtextwrap:hover {
+	border-color: #999;
+}
+
+#searchbox {
+	font-size:16px;
+	height:auto;
+	width:100%;
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+
+#buttons input {
+	display:inline-block;
+	margin:15px 6px 0px 6px;
+	font-weight:bold;
+	color: #444;
+	padding: 5px 6px;
+	background-color: #EEE;
+	border: 1px solid #AAA;
+}
+
+#buttons input:hover {
+	border-color: #444;
+}
+
+#bottom-nav {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:35px;
+	border-top:1px solid #CCC;
+	background-color:#EEE;
+}
+
+#bottom-nav .nav {
+	margin-top:6px;
+}
+
+#bottom-nav a, #bottom-nav a:hover {
+	color:#666;
+}
